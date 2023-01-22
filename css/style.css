@@ -9,3 +9,15 @@
 body {
   font-family: "Manrope", sans-serif;
 }
+
+.btn {
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  border-radius: 10px;
+}
+
+.rating {
+  width: 210px;
+  height: 85px;
+  top: 22.8125rem;
+  left: 7.5rem;
+}
