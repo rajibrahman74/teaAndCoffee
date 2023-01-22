@@ -105,3 +105,51 @@ body {
   left: 40px;
   opacity: 1000000000000;
 }
+
+/*
+  Footer section
+ */
+footer {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 137, 56, 0.1) 100%
+  );
+}
+
+.btn-three {
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  border-radius: 8px;
+}
+
+.email-input {
+  max-width: 260px;
+  width: 100%;
+  padding: 10px 8px;
+  padding-bottom: 10px;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 137, 56, 0.1) 100%,
+    rgba(255, 0, 0, 0.1) 0%
+  );
+  border: none;
+  border-bottom: 1.5px solid black;
+  color: black;
+  margin-top: 18px;
+}
+
+.email-input:focus {
+  border: none;
+}
+
+.fa-chevron-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  background: tomato;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
