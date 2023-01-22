@@ -21,3 +21,7 @@ body {
   top: 22.8125rem;
   left: 7.5rem;
 }
+
+.tea-card {
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+}
