@@ -146,10 +146,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 35px;
   width: 35px;
   background: tomato;
   border-radius: 50%;
   color: white;
   cursor: pointer;
+  margin: 0 auto;
 }
