@@ -10,7 +10,10 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
-.btn {
+/*
+    Hero/top section
+ */
+.btn-one {
   background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
   border-radius: 10px;
 }
@@ -21,10 +24,16 @@ body {
   left: 7.5rem;
 }
 
+/*
+    Our products
+ */
 .tea-card {
   background: linear-gradient(180deg, #f4f4f4 0%, rgba(244, 244, 244, 0) 100%);
 }
 
+/*
+    Great tea section
+ */
 .great-tea {
   display: grid;
   gap: 2rem;
@@ -58,4 +67,41 @@ body {
   height: 136px;
   background: linear-gradient(90deg, #d9d9d9 0%, rgba(255, 255, 255, 0) 100%);
   border-radius: 10px;
+}
+
+/*
+    Our clients section
+ */
+.btn-two {
+  color: tomato;
+  border-radius: 8px;
+}
+
+.clients {
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  border-radius: 10px;
+}
+
+.clients-review {
+  max-height: 250px;
+  height: 100%;
+  max-width: 430px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.clients-review img {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+
+.absolute-card {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  opacity: 1000000000000;
 }
