@@ -16,12 +16,46 @@ body {
 }
 
 .rating {
-  width: 210px;
   height: 85px;
   top: 22.8125rem;
   left: 7.5rem;
 }
 
 .tea-card {
-    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 100%);
+  background: linear-gradient(180deg, #f4f4f4 0%, rgba(244, 244, 244, 0) 100%);
+}
+
+.great-tea {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "i1 i2"
+    "i3 i2"
+    "i3 i4";
+}
+
+.great-tea .item-1 {
+  grid-area: i1;
+  height: 136px;
+  background: linear-gradient(270deg, #ff0000 0%, #ff8938 100%);
+  opacity: 0.1;
+  border-radius: 10px;
+}
+.great-tea .item-2 {
+  grid-area: i2;
+  height: 355.28px;
+  background: rgba(230, 166, 35, 0.1);
+  border-radius: 10px;
+}
+.great-tea .item-3 {
+  grid-area: i3;
+  height: 355.28px;
+  background: rgba(87, 118, 57, 0.1);
+  border-radius: 10px;
+}
+.great-tea .item-4 {
+  grid-area: i4;
+  height: 136px;
+  background: linear-gradient(90deg, #d9d9d9 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 10px;
 }
